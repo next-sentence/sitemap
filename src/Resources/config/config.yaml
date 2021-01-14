@@ -1,0 +1,17 @@
+sitemap:
+    static_routes:
+        - { route: app_homepage }
+
+parameters:
+    app.sitemap.filesystem: app_sitemap
+    app.sitemap.path: "%kernel.root_dir%/var/sitemap"
+
+knp_gaufrette:
+    adapters:
+        app_sitemap:
+            local:
+                directory: "%app.sitemap.path%"
+                create: true
+    filesystems:
+        app_sitemap:
+            adapter: "%app.sitemap.filesystem%"

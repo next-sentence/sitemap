@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+        <service id="app.sitemap_writer" class="LWC\SitemapBundle\Filesystem\Writer">
+            <argument type="service">
+                <service class="Gaufrette\Filesystem">
+                    <argument>%app.sitemap.filesystem%</argument>
+                    <factory service="knp_gaufrette.filesystem_map" method="get" />
+                </service>
+            </argument>
+        </service>
+
+        <service id="app.sitemap_reader" class="LWC\SitemapBundle\Filesystem\Reader">
+            <argument type="service">
+                <service class="Gaufrette\Filesystem">
+                    <argument>%app.sitemap.filesystem%</argument>
+                    <factory service="knp_gaufrette.filesystem_map" method="get" />
+                </service>
+            </argument>
+        </service>
+
+        <service id="app.command.generate_sitemap" class="LWC\SitemapBundle\Command\GenerateSitemapCommand">
+            <argument type="service" id="app.sitemap_renderer" />
+            <argument type="service" id="app.sitemap_index_renderer"/>
+            <argument type="service" id="app.sitemap_builder" />
+            <argument type="service" id="app.sitemap_index_builder" />
+            <argument type="service" id="app.sitemap_writer" />
+            <argument type="service" id="app.repository.channel" />
+
+            <tag name="console.command" />
+        </service>
+
+        <service id="app.controller.sitemap" class="LWC\SitemapBundle\Controller\SitemapController">
+            <argument type="service" id="app.sitemap_reader" />
+
+            <tag name="controller.service_arguments" />
+        </service>
+        <service id="app.controller.sitemap_index" class="LWC\SitemapBundle\Controller\SitemapIndexController">
+            <argument type="service" id="app.sitemap_reader" />
+
+            <tag name="controller.service_arguments" />
+        </service>
+
+        <service id="app.sitemap_renderer.twig_adapter" class="LWC\SitemapBundle\Renderer\TwigAdapter">
+            <argument type="service" id="templating" />
+            <argument>%app.sitemap_template%</argument>
+            <argument>%app.sitemap_hreflang%</argument>
+            <argument>%app.sitemap_images%</argument>
+        </service>
+        <service id="app.sitemap_index_renderer.twig_adapter" class="LWC\SitemapBundle\Renderer\TwigAdapter">
+            <argument type="service" id="templating" />
+            <argument>%app.sitemap_index_template%</argument>
+        </service>
+
+        <service id="app.sitemap_renderer" class="LWC\SitemapBundle\Renderer\SitemapRenderer">
+            <argument type="service" id="app.sitemap_renderer.twig_adapter" />
+        </service>
+        <service id="app.sitemap_index_renderer" class="LWC\SitemapBundle\Renderer\SitemapRenderer">
+            <argument type="service" id="app.sitemap_index_renderer.twig_adapter" />
+        </service>
+
+        <service id="app.sitemap_factory" class="LWC\SitemapBundle\Factory\SitemapFactory" />
+        <service id="app.sitemap_index_factory" class="LWC\SitemapBundle\Factory\SitemapIndexFactory" />
+        <service id="app.sitemap_url_factory" class="LWC\SitemapBundle\Factory\UrlFactory" />
+        <service id="app.sitemap_url_alternative_factory" class="LWC\SitemapBundle\Factory\AlternativeUrlFactory" />
+        <service id="app.sitemap_image_url_factory" class="LWC\SitemapBundle\Factory\ImageFactory" />
+        <service id="app.sitemap_index_url_factory" class="LWC\SitemapBundle\Factory\IndexUrlFactory" />
+
+        <service id="app.sitemap_builder" class="LWC\SitemapBundle\Builder\SitemapBuilder">
+            <argument type="service" id="app.sitemap_factory" />
+        </service>
+        <service id="app.sitemap_index_builder" class="LWC\SitemapBundle\Builder\SitemapIndexBuilder">
+            <argument type="service" id="app.sitemap_index_factory" />
+        </service>
+
+        <service id="app.sitemap.routing_loader" class="LWC\SitemapBundle\Routing\SitemapLoader">
+            <call method="setContainer">
+                <argument type="service" id="service_container" />
+            </call>
+            <argument type="service" id="app.sitemap_builder" />
+            <tag name="routing.loader" />
+        </service>
+
+        <service id="app.sitemap_index_provider.index" class="LWC\SitemapBundle\Provider\IndexUrlProvider">
+            <argument type="service" id="router" />
+            <argument type="service" id="app.sitemap_index_url_factory" />
+            <tag name="app.sitemap_index_provider" />
+        </service>
+    </services>
+</container>

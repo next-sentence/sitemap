@@ -1,0 +1,16 @@
+app_sitemap_index:
+    path: /sitemap_index.xml
+    methods: [GET]
+    defaults:
+        _controller: app.controller.sitemap_index:showAction
+
+app_sitemap_no_index:
+    path: /sitemap.xml
+    defaults:
+        _controller: FrameworkBundle:Redirect:redirect
+        route: app_sitemap_index
+        permanent: true
+
+app_sitemap_providers:
+    resource: .
+    type: sitemap

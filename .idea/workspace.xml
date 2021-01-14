@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2d8ab51-5909-4342-9e62-968eba402c27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SitemapBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/CODEOWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE-2.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Builder/SitemapBuilderSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Exception/SitemapUrlNotFoundExceptionSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Factory/ImageFactorySpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Factory/SitemapFactorySpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Factory/UrlFactorySpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Model/AlternativeUrlSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Model/ChangeFrequencySpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Model/ImageSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Model/SitemapSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Model/UrlSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Provider/ProductUrlProviderSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Renderer/SitemapRendererSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/Renderer/TwigAdapterSpec.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/BuilderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/BuilderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/SitemapBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/SitemapBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/SitemapBuilderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/SitemapBuilderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/SitemapIndexBuilderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/SitemapIndexBuilderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/GenerateSitemapCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/GenerateSitemapCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AbstractController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SitemapIndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SitemapIndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/Compiler/SitemapProviderPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/Compiler/SitemapProviderPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/Configuration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DependencyInjection/SitemapExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DependencyInjection/SitemapExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/RouteExistsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/RouteExistsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception/SitemapUrlNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/SitemapUrlNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/AlternativeUrlFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/AlternativeUrlFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/AlternativeUrlFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/AlternativeUrlFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ImageFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ImageFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/ImageFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/ImageFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/IndexUrlFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/IndexUrlFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/IndexUrlFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/IndexUrlFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SitemapFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SitemapFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SitemapFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SitemapFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SitemapIndexFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SitemapIndexFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/SitemapIndexFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/SitemapIndexFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/UrlFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/UrlFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/UrlFactoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/UrlFactoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filesystem/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filesystem/Reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filesystem/Writer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filesystem/Writer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generator/ProductImagesToSitemapImagesCollectionGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generator/ProductImagesToSitemapImagesCollectionGeneratorInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/AlternativeUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/AlternativeUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/AlternativeUrlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/AlternativeUrlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ImageInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/ImageInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/IndexUrl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/IndexUrl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/IndexUrlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/IndexUrlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Sitemap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Sitemap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SitemapIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SitemapIndex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/SitemapInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/SitemapInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Url.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UrlInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UrlInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/IndexUrlProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/IndexUrlProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/IndexUrlProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/IndexUrlProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/ProductUrlProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/StaticUrlProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/StaticUrlProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/TaxonUrlProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Provider/UrlProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Provider/UrlProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer/RendererAdapterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer/RendererAdapterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer/SitemapRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer/SitemapRenderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer/SitemapRendererInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer/SitemapRendererInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Renderer/TwigAdapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Renderer/TwigAdapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/config/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/config/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/config/services/providers/products.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/config/services/providers/static.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/config/services/providers/static.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/config/services/providers/taxons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/views/Macro/xml.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/Macro/xml.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/views/index.xml.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/index.xml.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/views/show.xml.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/views/show.xml.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Routing/SitemapLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routing/SitemapLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/_sylius.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/doctrine_migrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/fos_rest.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/liip_imagine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/prod/jms_serializer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/prod/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/security_checker.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/sonata_core.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/staging/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/staging/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/stefandoorn_sylius_sitemap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/stof_doctrine_extensions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test/sylius_theme.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/fos_rest.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/monolog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/swiftmailer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/sylius_channel.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/sylius_theme.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/test_cached/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/translation.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/twig_extensions.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/dev/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/dev/web_profiler.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/liip_imagine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/sylius_admin.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/sylius_admin_api.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/routes/sylius_shop.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/gulpfile.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/public/media/image/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/templates/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Application/translations/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/AbstractTestController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapIndexControllerApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapProductControllerApiImagesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapProductControllerApiLocalesImagesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapProductControllerApiLocalesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapProductControllerApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapProductControllerApiUniqueLocaleChannelTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapStaticControllerApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapTaxonControllerApiLocalesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/SitemapTaxonControllerApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Controller/TearDownTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DependencyInjection/Compiler/SitemapParameterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/DependencyInjection/Compiler/SitemapProviderPassTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Exception/RouteExistsExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Exception/SitemapUrlNotFoundExceptionTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Model/ChangeFrequencyTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Model/SitemapTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Model/SitemapUrlTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_all.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_locale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_products.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_products_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_products_locale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_products_locale_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_products_unique_channel_locale.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_static.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_taxons.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Responses/Expected/show_sitemap_taxons_locale.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-webmozart-assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/phpspec" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/openlss/lib-array2xml" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/lchrusciel/api-test-case" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/sylius-labs/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-shim" />
+      <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-config-test" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-doctrine" />
+      <path value="$PROJECT_DIR$/vendor/matthiasnoback/symfony-dependency-injection-test" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan-strict-rules" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/nette/finder" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/nette/robot-loader" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/alice" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/jean85/pretty-package-versions" />
+      <path value="$PROJECT_DIR$/vendor/theofidry/alice-data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/coduo/php-matcher" />
+      <path value="$PROJECT_DIR$/vendor/coduo/php-to-string" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/symplify/easy-coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/symplify/set-config-resolver" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/symplify/smart-file-system" />
+      <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/symplify/package-builder" />
+      <path value="$PROJECT_DIR$/vendor/symplify/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-gaufrette-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/gaufrette" />
+      <path value="$PROJECT_DIR$/vendor/symfony/templating" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1m3qEDHx9ma7Kmdv1GKxlynmJAB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="PHPSpec.phpspec.yml.dist">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpspec.yml.dist" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings scope="ConfigurationFile" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2d8ab51-5909-4342-9e62-968eba402c27" name="Default Changelist" comment="" />
+      <created>1608732509325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608732509325</updated>
+      <workItem from="1608732510761" duration="2500000" />
+      <workItem from="1608735097941" duration="1459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="541" y="257" width="597" height="548" key="find.popup" timestamp="1608735510524">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state x="541" y="257" width="597" height="548" key="find.popup/0.25.1680.954@0.25.1680.954" timestamp="1608735510524" />
+  </component>
+</project>
